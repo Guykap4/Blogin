@@ -7,22 +7,22 @@
 
 @font-face {
     font-family: LatoBold;
-    src: url(../fonts/Lato-Bold.ttf);
+    src: url(fonts/Lato-Bold.ttf);
 }
 
 @font-face {
     font-family: LatoRegular;
-    src: url(../fonts/Lato-Regular.ttf);
+    src: url(fonts/Lato-Regular.ttf);
 }
 
 @font-face {
     font-family: EuroRegular;
-    src: url(../fonts/eurof35.ttf);
+    src: url(fonts/eurof35.ttf);
 }
 
 @font-face {
     font-family: ChampAndLims;
-    src: url(../fonts/Champagne\ &\ Limousines.ttf);
+    src: url(fonts/Champagne\ &\ Limousines.ttf);
 }
 
 
