@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Blogin</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+    <div class="main-screen" onclick="toggleModal()"></div>
+
+    <div class="read-modal">
+        <h3>DUIS AUTE IRURE DOLOR IN HENDERIT IN VOLUPTATE.</h3>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat,
+            sunt
+            in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur...</p>
+
+        <button onclick="toggleModal()">Close</button>
+    </div>
+
+    <header class="header">
+        <div class="header-container container flex space-between align-center">
+            <h2 class="blogin-logo">Blogin<span>.</span></h2>
+            <div class="main-nav" onclick="toggleMenu()">
+                <ul class="clean-list flex nav-list">
+                    <li>
+                        <a href="#">
+                            <div class="list-div journal-drop">
+                                <span onclick="openJournalClick(event)">Journal</span>
+                                <div class="journal-dropdown">
+                                    <ul class="clean-list">
+                                        <li><a href="#">Item 1</a></li>
+                                        <li><a href="#">Item 1</a></li>
+                                        <li><a href="#">Item 1</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="menu-catch">
+                        <a href="#">
+                            <div class="list-div">About</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="list-div">Work</div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="list-div">Contact</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <span onclick="toggleMenu()" class="menu-btn">☰</span>
+        </div>
+    </header>
+
+    <main id="journal" class="content container">
+        <div class="container">
+            <div class="card flex">
+                <div class="card-image"><img src="./img/railroad.jpeg"></div>
+                <div class="card-content">
+                    <h3>Duis aute irure dolor in henderit in voluptate.</h3>
+                    <p class="first">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                        ex
+                        ea commo
+                        doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                    <p class="second">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                        fugiat nulla
+                        pariatur...</p>
+                    <button onclick="toggleModal()">Continue Reading</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="card">
+                <div class="card-image"><img src="./img/powerplant.jpeg"></div>
+                <div class="card-content">
+                    <h3>Duis aute irure dolor in henderit in voluptate.</h3>
+                    <p class="first">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip
+                        ex ea commo
+                        doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                    <p class="second">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                        eu fugiat nulla
+                        pariatur...</p>
+                    <button onclick="toggleModal()">Continue Reading</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="card flex">
+                <div class="card-image"><img src="./img/wheat.jpeg"></div>
+                <div class="card-content">
+                    <h3>Duis aute irure dolor in henderit in voluptate.</h3>
+                    <p class="first">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip
+                        ex
+                        ea commo
+                        doconsequat, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+                    <p class="second">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+                        eu fugiat nulla
+                        pariatur...</p>
+                    <button onclick="toggleModal()">Continue Reading</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="pagination container flex space-between">
+            <a href="#"><span>← Previous</span></a>
+            <a href="#"><span>Next →</span></a>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-container">
+            <h2 class="blogin-logo">Blogin<span>.</span></h2>
+            <small>© 2014 Blogin.com - All Rights Reserved - Find more free Templates at Pixelhint.com</small>
+            <div class="social">
+                <div class="social-image"><a href="#"><img src="./img/facebook.png"></a></div>
+                <div class="social-image"><a href="#"><img src="img/twitter.png"></a></div>
+                <div class="social-image"><a href="#"><img src="img/behance.jpg"></a></div>
+                <div class="social-image"><a href="#"><img src="img/reddit.png"></a></div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
